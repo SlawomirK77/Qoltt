@@ -1,12 +1,12 @@
-﻿namespace qoltt.Domain
+﻿namespace qoltt.Domain.Entities
 {
     public class Product
     {
         public Guid Id { get; set; }
         public string Name { get; set; } = default!;
         public string Description { get; set; } = default!;
-        public ProductCategory Category { get; set; }
-        public List<string> Links { get; set; } = new();
+        public Category Category { get; set; }
+        public List<ItemUri> Links { get; set; } = new();
         public string? Picture { get; set; }
         public decimal Rating { get; set; }
         public decimal Price { get; set; }
@@ -14,7 +14,7 @@
         public Guid? CreatedById { get; set; }
     }
 
-    public enum ProductCategory
+    public enum Category
     {
         Software,
         Electronics,

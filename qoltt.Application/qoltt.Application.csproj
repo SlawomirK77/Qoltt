@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\qoltt.Domain\qoltt.Domain.csproj" />
+    <ProjectReference Include="..\Qoltt.Domain\Qoltt.Domain.csproj" />
   </ItemGroup>
 
 </Project>
