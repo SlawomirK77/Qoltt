@@ -1,2 +1,2 @@
 # qoltt
-Quality of life tips and tricks
+Quality of life and tips & tricks
